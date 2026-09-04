@@ -125,6 +125,3 @@ python scripts/05_run_grad_cam.py
 
 ---
 
-## Video Script
-
-A video presentation script is available in [video_script.md](file:///c:/Users/harsha%20vashi/Desktop/GPP/inaturalist-species-classifier/video_script.md).
