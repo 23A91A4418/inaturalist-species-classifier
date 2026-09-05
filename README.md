@@ -9,7 +9,7 @@ An end-to-end containerized computer vision pipeline utilizing **MobileNetV3** t
 
 ---
 
-## 🏗️ Architecture Diagram
+## Architecture Diagram
 
 ```
 +---------------------------------------------------------------------------------------+
@@ -61,7 +61,7 @@ flowchart TD
 
 ---
 
-## 📦 Mandatory Repository Artifacts
+## Mandatory Repository Artifacts
 
 This repository fulfills all required submission artifacts:
 
@@ -74,7 +74,7 @@ This repository fulfills all required submission artifacts:
 
 ---
 
-## 🐳 Multi-Stage Docker Architecture & Security
+## Multi-Stage Docker Architecture & Security
 
 The `Dockerfile` adheres to containerization best practices:
 
@@ -84,7 +84,7 @@ The `Dockerfile` adheres to containerization best practices:
 
 ---
 
-## 🚀 Setup & Execution Instructions
+## Setup & Execution Instructions
 
 ### Option 1: Single-Command Orchestration via Docker Compose (Recommended)
 
@@ -127,7 +127,7 @@ The `Dockerfile` adheres to containerization best practices:
 
 ---
 
-## 🔄 End-to-End Pipeline Execution
+## End-to-End Pipeline Execution
 
 Run the processing pipeline sequentially:
 
@@ -163,7 +163,7 @@ python scripts/05_run_grad_cam.py
 
 ---
 
-## 🧪 Automated Testing Suite (`pytest`)
+## Automated Testing Suite (`pytest`)
 
 The `tests/` directory contains unit and integration tests:
 
@@ -186,7 +186,7 @@ pytest --cov=scripts --cov-report=term-missing
 
 ---
 
-## 🛠️ CI/CD Readiness Explanation
+## CI/CD Readiness Explanation
 
 This repository is structured for seamless integration into GitHub Actions or GitLab CI pipelines:
 
