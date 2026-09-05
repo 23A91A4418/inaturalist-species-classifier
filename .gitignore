@@ -26,6 +26,12 @@ venv/
 .venv/
 ENV/
 
+# Testing & Coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
 # Environment Variables
 .env
 !.env.example
@@ -36,19 +42,20 @@ ENV/
 *.swp
 *.swo
 
-# Docker / OS
+# Docker / OS / System
 .DS_Store
 Thumbs.db
+*.log
 
-# Data & Models (ignore generated images and models but preserve directory structure via .gitkeep)
+# Data & Models (ignore generated images, dataset artifacts, and models but preserve directory structure via .gitkeep)
 data/raw/*
 !data/raw/.gitkeep
 data/processed/*
 !data/processed/.gitkeep
+!data/processed/class_map.json
 models/*
 !models/.gitkeep
 results/*
 !results/.gitkeep
-!results/grad_cam_outputs/.gitkeep
 results/grad_cam_outputs/*
 !results/grad_cam_outputs/.gitkeep
